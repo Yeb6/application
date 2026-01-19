@@ -2,7 +2,7 @@ name: Deployment (INT)
 
 on:
   workflow_dispatch:
-    branches: [ "develop" ]
+    branches: [ "main" ]
 
 env:               
   IMAGE_TAG: ${{ github.sha }}
